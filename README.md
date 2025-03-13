@@ -1,8 +1,6 @@
 # Version_Control_Task
 
 
-# Version_Control_Task
-
 
 ---
 
