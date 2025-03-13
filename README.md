@@ -1,11 +1,14 @@
 # Version_Control_Task
 
 
+# Version_Control_Task
+
+
 ---
 
-# ✅ Todo App (React + Flask)  
+# Todo App (React + Flask)  
 
-## 📌 Project Description  
+##  Project Description  
 
 Welcome to **Todo App**, a simple and interactive web application that helps you manage your daily tasks efficiently! The app consists of two main components:  
 
@@ -14,21 +17,21 @@ Welcome to **Todo App**, a simple and interactive web application that helps you
 
 ---
 
-## 🎯 Features  
+## Features  
 
-- 📝 Add new tasks.  
-- ✅ Mark tasks as completed.  
-- 🗑️ Delete tasks.  
-- 📡 REST API for backend communication.  
-- 🎨 Responsive and interactive UI.  
+-  Add new tasks.  
+- Mark tasks as completed.  
+- ️ Delete tasks.  
+-  REST API for backend communication.  
+-  Responsive and interactive UI.  
 
 ---
 
-## ⚙️ Installation  
+## Installation  
 
 To set up the **Todo App**, follow these steps to install both the frontend and backend.  
 
-### 🔹 Prerequisites  
+###  Prerequisites  
 
 Ensure you have the following installed on your machine:  
 
@@ -38,43 +41,43 @@ Ensure you have the following installed on your machine:
 
 ---
 
-## 🌐 Backend Installation (Flask)  
+## Backend Installation (Flask)  
 
-1️⃣ Navigate to the`trainee_backend` folder:  
+ Navigate to the`trainee_backend` folder:  
 ```bash
 cd trainee_backend
 ```  
 
-2️⃣ Create a virtual environment (Recommended):  
+ Create a virtual environment (Recommended):  
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
 ```  
 
-3️⃣ Install the required dependencies:  
+ Install the required dependencies:  
 ```bash
 pip install flask flask-cors
 ```  
 
 ---
 
-## 🎨 Frontend Installation (React)  
+##  Frontend Installation (React)  
 
-1️⃣ Navigate to the` trainee_frontend` folder:  
+⃣ Navigate to the` trainee_frontend` folder:  
 ```bash
 cd trainee_frontend
 ```  
 
-2️⃣ Install the frontend dependencies:  
+ Install the frontend dependencies:  
 ```bash
 npm install
 ```  
 
 ---
 
-## 🚀 Running the Project Locally  
+## Running the Project Locally  
 
-### 🔹 Backend  
+### Backend  
 
 1. Start the Flask backend server:  
 ```bash
@@ -84,7 +87,7 @@ python app.py
 
 ---
 
-### 🔹 Frontend  
+###  Frontend  
 
 1. In a new terminal, navigate to the `trainee_frontend` directory and start the React app:  
 ```bash
@@ -96,4 +99,4 @@ npm start
 
 ---
 
-
+---
