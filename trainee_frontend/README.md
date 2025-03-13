@@ -26,5 +26,5 @@ Ensure you have the following installed:
 git clone https://github.com/your-username/todo-app.git
 cd todo-app/trainee_frontend
 npm install #install project dependency
-npm start #starting the project
+npm run dev #starting the project
  
