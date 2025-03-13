@@ -1,12 +1,30 @@
-# React + Vite
+# 🎨 Todo App - Frontend (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Description
+This is the frontend for the **Todo App**, built using **React.js**. It provides a user-friendly interface to interact with the Flask backend.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Features
+- 📝 Add new tasks.
+- ✅ Mark tasks as completed.
+- 🗑️ Delete tasks.
+- 📡 Fetches data from Flask backend.
+- 🎨 Simple and responsive UI.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Installation & Setup
+
+### 🔹 Prerequisites
+Ensure you have the following installed:
+- [Node.js](https://nodejs.org/)
+- npm (comes with Node.js)
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/todo-app.git
+cd todo-app/trainee_frontend
+npm install #install project dependency
+npm start #starting the project
+ 
