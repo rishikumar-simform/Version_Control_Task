@@ -1,8 +1,6 @@
 # Version_Control_Task
 
 
-# Version_Control_Task
-
 
 ---
 
@@ -91,7 +89,7 @@ python app.py
 
 1. In a new terminal, navigate to the `trainee_frontend` directory and start the React app:  
 ```bash
-npm start
+npm run dev
 ```  
 2. The frontend will be running on **http://localhost:3000**.  
 
