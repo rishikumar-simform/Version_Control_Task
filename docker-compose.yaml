@@ -5,6 +5,8 @@ services:
         #networks:
         #- frontend
     container_name: frontendmern
+    networks:
+      - versioncontrolnetwork  
     depends_on:
       - backendflask
     ports:
@@ -18,6 +20,8 @@ services:
         #networks:
         #- frontend
     container_name: backendflask
+    networks:
+      - versioncontrolnetwork  
     depends_on:
       database:
         condition: service_healthy
@@ -29,6 +33,8 @@ services:
   database:
     image: mysql:8.0.36 
     container_name: database
+    networks:
+      - versioncontrolnetwork  
     env_file:
       - ./trainee_backend/.env
     volumes:
