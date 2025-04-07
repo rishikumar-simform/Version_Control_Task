@@ -64,5 +64,5 @@ def delete_todo(todo_id):
     return jsonify({"message": "Deleted"}), 200
 
 if __name__ == '__main__':
-    port = int(os.getenv("PORT", 5000))  # Default to 5000 if PORT is not set
+    port = int(os.getenv("PORT", 5003))  # Default to 5000 if PORT is not set
     app.run(debug=True, host="0.0.0.0", port=port)

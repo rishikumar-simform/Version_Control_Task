@@ -1,0 +1,57 @@
+services:
+  frontendmern:
+    build:
+      context: ./trainee_backend/Dockerfile
+        #networks:
+        #- frontend
+    container_name: frontendmern
+    depends_on:
+      - backendflask
+    ports:
+      - "5175:5173"
+    env_file:
+      - ./trainee_frontend/.env
+
+  backendflask:
+    build:
+      context: ./trainee_frontend/Dockerfile
+        #networks:
+        #- frontend
+    container_name: backendflask
+    depends_on:
+      database:
+        condition: service_healthy
+    env_file:
+      - ./trainee_backend/.env
+    ports:
+      - "5005:5000"
+
+  database:
+    image: mysql:8.0.36 
+    container_name: database
+    env_file:
+      - ./trainee_backend/.env
+    volumes:
+      - rishi-mysql:/var/lib/mysql
+    ports:
+      - "3310:3306"
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-uroot", "-proot"]
+      interval: 10s
+      retries: 5
+      start_period: 20s
+      timeout: 5s
+
+
+volumes:
+  rishi-mysql:
+
+
+networks:
+  versioncontrolnetwork:
+    driver: bridge
+
+
+    #networks:
+    #frontend:
+
